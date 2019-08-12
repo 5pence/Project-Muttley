@@ -5,17 +5,13 @@ Project Muttley is intended for people who wish to write their own Front End and
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-First `git clone` the repo into your own directory and wire up the database how you see fit.
+- `git clone` the repo into your own directory and wire up the database how you see fit.
+- create your virtual environment either with pipenv or prebuilt inside Pycharm
+- `./manage.py makemigrations`
+- `./manage.py migrate`
+- `./manage.py runserver`
 
 See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-Python and a database.
-
-### Installing
-
-Here are a step by step series of examples that tell you how to get a development env running:
 
 ## Running the tests
 
@@ -25,20 +21,25 @@ The unit tests are currently not yet written and are a current epic.
 
 Will be explained here
 
+### Class Diagram 
+
+![class diagram showing Project Muttley blog system](hhttps://github.com/5pence/Project-Muttley/Muttley-class-diagram.png)
+
 ## Deployment
 
 Additional notes about how to deploy this on a live system coming soon
 
 ## Built With
 
-To be completed:
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Django](https://www.djangoproject.com/) - The main framework used
+* [Django Rest Frameowrk](https://www.django-rest-framework.org/) - The API Stuff
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds (to be added)
 
 ## Contributing
 
 It is my intention for peeps to contribute and for details on our code of conduct, and the process for submitting pull requests to us can be found out later.
+
+If you would like to contribute great, use branches!
 
 ## Versioning
 
@@ -54,7 +55,5 @@ This project is licensed under the GNU GPLv3 License - see the [LICENSE.md](LICE
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* Dan Bader
-* Michael Kennedy
+* Dan Bader - From RealPython
+* Michael Kennedy - Talk Python To Me
