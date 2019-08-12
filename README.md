@@ -23,7 +23,7 @@ Will be explained here
 
 ### Class Diagram 
 
-![class diagram showing Project Muttley blog system](hhttps://github.com/5pence/Project-Muttley/Muttley-class-diagram.png)
+![class diagram showing Project Muttley blog system](https://github.com/5pence/Project-Muttley/Muttley-class-diagram.png)
 
 ## Deployment
 
