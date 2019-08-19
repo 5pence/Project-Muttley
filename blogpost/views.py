@@ -15,3 +15,4 @@ class BlogPostViewSet(FlexFieldsModelViewSet):
     permit_list_expands = ['category', 'user']
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
     filterset_fields = ['category', 'tags', 'user']
+

@@ -1,6 +1,6 @@
 # Project Muttley - A standalone API Blog Engine 
 
-Project Muttley is intended for people who wish to write their own Front End and have an intuitative API that deals with all the heavy lifting. It is built using Django Rest Framework and is a working progress.
+Project Muttley is intended for people who wish to write their own Front End and have an intuitive API that deals with all the heavy lifting. It is built using Django Rest Framework and is a working progress.
 
 ## Getting Started
 
